@@ -3,7 +3,31 @@ schemes:
   llbuildSwift:
     build:
       targets:
-          llbuildSwift: build
+        llbuildSwift: build
+  libllbuild:
+    build:
+      targets:
+        libllbuild: build
+  llbuildBuildSystem:
+    build:
+      targets:
+        llbuildBuildSystem: build
+  llbuildCore:
+    build:
+      targets:
+        llbuildCore: build
+  llbuildBasic:
+    build:
+      targets:
+        llbuildBasic: build
+  llvmSupport:
+    build:
+      targets:
+        llvmSupport: build
+  llvmDemangle:
+    build:
+      targets:
+        llvmDemangle: build
 targets:
   llbuildSwift:
     dependencies:
