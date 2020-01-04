@@ -1,0 +1,374 @@
+{
+  "cLanguageStandard" : null,
+  "cxxLanguageStandard" : "c++14",
+  "dependencies" : [
+
+  ],
+  "manifestVersion" : "v5",
+  "name" : "llbuild",
+  "pkgConfig" : null,
+  "platforms" : [
+
+  ],
+  "products" : [
+    {
+      "name" : "libllbuild",
+      "targets" : [
+        "libllbuild"
+      ],
+      "type" : {
+        "library" : [
+          "automatic"
+        ]
+      }
+    },
+    {
+      "name" : "llbuildSwift",
+      "targets" : [
+        "llbuildSwift"
+      ],
+      "type" : {
+        "library" : [
+          "automatic"
+        ]
+      }
+    }
+  ],
+  "providers" : null,
+  "swiftLanguageVersions" : null,
+  "targets" : [
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llbuildCommands"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llbuild",
+      "path" : "products\/llbuild",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llbuildBuildSystem"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "swift-build-tool",
+      "path" : "products\/swift-build-tool",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "libllbuild"
+          ]
+        }
+      ],
+      "exclude" : [
+        "llbuild.swift"
+      ],
+      "name" : "llbuildSwift",
+      "path" : "products\/llbuildSwift",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llbuildCore"
+          ]
+        },
+        {
+          "byName" : [
+            "llbuildBuildSystem"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "libllbuild",
+      "path" : "products\/libllbuild",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llvmSupport"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llbuildBasic",
+      "path" : "lib\/Basic",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llbuildBasic"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llbuildCore",
+      "path" : "lib\/Core",
+      "settings" : [
+        {
+          "name" : "linkedLibrary",
+          "tool" : "linker",
+          "value" : [
+            "sqlite3"
+          ]
+        }
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llbuildCore"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llbuildBuildSystem",
+      "path" : "lib\/BuildSystem",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llbuildBasic"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llbuildNinja",
+      "path" : "lib\/Ninja",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llbuildCore"
+          ]
+        },
+        {
+          "byName" : [
+            "llbuildBuildSystem"
+          ]
+        },
+        {
+          "byName" : [
+            "llbuildNinja"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llbuildCommands",
+      "path" : "lib\/Commands",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llbuildBasic"
+          ]
+        },
+        {
+          "byName" : [
+            "gtest"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llbuildBasicTests",
+      "path" : "unittests\/Basic",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llbuildCore"
+          ]
+        },
+        {
+          "byName" : [
+            "gtest"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llbuildCoreTests",
+      "path" : "unittests\/Core",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llbuildBuildSystem"
+          ]
+        },
+        {
+          "byName" : [
+            "gtest"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llbuildBuildSystemTests",
+      "path" : "unittests\/BuildSystem",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llbuildNinja"
+          ]
+        },
+        {
+          "byName" : [
+            "gtest"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llbuildNinjaTests",
+      "path" : "unittests\/Ninja",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+
+      ],
+      "exclude" : [
+        "gtest-death-test.cc",
+        "gtest-filepath.cc",
+        "gtest-port.cc",
+        "gtest-printers.cc",
+        "gtest-test-part.cc",
+        "gtest-typed-test.cc",
+        "gtest.cc"
+      ],
+      "name" : "gtest",
+      "path" : "utils\/unittest\/googletest\/src",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llvmDemangle",
+      "path" : "lib\/llvm\/Demangle",
+      "settings" : [
+
+      ],
+      "type" : "regular"
+    },
+    {
+      "dependencies" : [
+        {
+          "byName" : [
+            "llvmDemangle"
+          ]
+        }
+      ],
+      "exclude" : [
+
+      ],
+      "name" : "llvmSupport",
+      "path" : "lib\/llvm\/Support",
+      "settings" : [
+        {
+          "name" : "linkedLibrary",
+          "tool" : "linker",
+          "value" : [
+            "ncurses"
+          ]
+        }
+      ],
+      "type" : "regular"
+    }
+  ]
+}

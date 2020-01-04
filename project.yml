@@ -1,0 +1,159 @@
+name: llbuild
+schemes:
+  All:
+    build:
+      targets:
+          # llbuild: build
+          # swift-build-tool: build
+          # llbuildSwift: build
+          # libllbuild: build
+          # llbuildBasic: build
+          # llbuildCore: build
+          # llbuildBuildSystem: build
+          # llbuildNinja: build
+          # llbuildCommands: build
+          # llbuildBasicTests: build
+          # llbuildCoreTests: build
+          # llbuildBuildSystemTests: build
+          # llbuildNinjaTests: build
+          # gtest: build
+          llvmDemangle: build
+          # llvmSupport: build
+targets:
+  # llbuild:
+  #   sources:
+  #     - products/llbuild
+  #   dependencies:
+  #     - target: llbuildCommands
+  #   type: framework
+  #   platform: macOS
+  # swift-build-tool:
+  #   sources:
+  #     - products/swift-build-tool
+  #   dependencies:
+  #     - target: llbuildBuildSystem
+  #   type: framework
+  #   platform: macOS
+  # llbuildSwift:
+  #   sources:
+  #     - products/llbuildSwift
+  #   dependencies:
+  #     - target: libllbuild
+  #   exclude:
+  #   - llbuild.swift
+  #   type: framework
+  #   platform: macOS
+  # libllbuild:
+  #   sources:
+  #     - products/libllbuild
+  #   dependencies:
+  #     - target: llbuildCore
+  #     - target: llbuildBuildSystem
+  #   type: framework
+  #   platform: macOS
+  # llbuildBasic:
+  #   sources:
+  #     - lib/Basic
+  #   dependencies:
+  #     - target: llvmSupport
+  #   type: framework
+  #   platform: macOS
+  # llbuildCore:
+  #   sources:
+  #     - lib/Core
+  #   dependencies:
+  #     - target: llbuildBasic
+  #   settings:
+  #   linkedLibrary:
+  #     tool: linker
+  #     value:
+  #     - sqlite3
+  #   type: framework
+  #   platform: macOS
+  # llbuildBuildSystem:
+  #   sources:
+  #     - lib/BuildSystem
+  #   dependencies:
+  #     - target: llbuildCore
+  #   type: framework
+  #   platform: macOS
+  # llbuildNinja:
+  #   sources:
+  #     - lib/Ninja
+  #   dependencies:
+  #     - target: llbuildBasic
+  #   type: framework
+  #   platform: macOS
+  # llbuildCommands:
+  #   sources:
+  #     - lib/Commands
+  #   dependencies:
+  #     - target: llbuildCore
+  #     - target: llbuildBuildSystem
+  #     - target: llbuildNinja
+  #   type: framework
+  #   platform: macOS
+  # llbuildBasicTests:
+  #   sources:
+  #     - unittests/Basic
+  #   dependencies:
+  #     - target: llbuildBasic
+  #     - target: gtest
+  #   type: framework
+  #   platform: macOS
+  # llbuildCoreTests:
+  #   sources:
+  #     - unittests/Core
+  #   dependencies:
+  #     - target: llbuildCore
+  #     - target: gtest
+  #   type: framework
+  #   platform: macOS
+  # llbuildBuildSystemTests:
+  #   sources:
+  #     - unittests/BuildSystem
+  #   dependencies:
+  #     - target: llbuildBuildSystem
+  #     - target: gtest
+  #   type: framework
+  #   platform: macOS
+  # llbuildNinjaTests:
+  #   sources:
+  #     - unittests/Ninja
+  #   dependencies:
+  #     - target: llbuildNinja
+  #     - target: gtest
+  #   type: framework
+  #   platform: macOS
+  # gtest:
+  #   sources:
+  #     - utils/unittest/googletest/src
+  #   exclude:
+  #   - gtest-death-test.cc
+  #   - gtest-filepath.cc
+  #   - gtest-port.cc
+  #   - gtest-printers.cc
+  #   - gtest-test-part.cc
+  #   - gtest-typed-test.cc
+  #   - gtest.cc
+  #   type: framework
+  #   platform: macOS
+  llvmDemangle:
+    sources:
+      - lib/llvm/Demangle
+    excludes:
+      - include
+    type: framework
+    platform: macOS
+  # llvmSupport:
+  #   sources:
+  #     - lib/llvm/Support
+  #   dependencies:
+  #     - target: llvmDemangle
+  #   settings:
+  #   linkedLibrary:
+  #     tool: linker
+  #     value:
+  #     - ncurses
+  #   type: framework
+  #   platform: macOS
