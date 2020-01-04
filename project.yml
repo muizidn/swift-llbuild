@@ -1,159 +1,210 @@
-name: llbuild
+name: XcodeGen
 schemes:
-  All:
+  llbuildSwift:
     build:
       targets:
-          # llbuild: build
-          # swift-build-tool: build
-          # llbuildSwift: build
-          # libllbuild: build
-          # llbuildBasic: build
-          # llbuildCore: build
-          # llbuildBuildSystem: build
-          # llbuildNinja: build
-          # llbuildCommands: build
-          # llbuildBasicTests: build
-          # llbuildCoreTests: build
-          # llbuildBuildSystemTests: build
-          # llbuildNinjaTests: build
-          # gtest: build
-          llvmDemangle: build
-          # llvmSupport: build
+          llbuildSwift: build
 targets:
-  # llbuild:
-  #   sources:
-  #     - products/llbuild
-  #   dependencies:
-  #     - target: llbuildCommands
-  #   type: framework
-  #   platform: macOS
-  # swift-build-tool:
-  #   sources:
-  #     - products/swift-build-tool
-  #   dependencies:
-  #     - target: llbuildBuildSystem
-  #   type: framework
-  #   platform: macOS
-  # llbuildSwift:
-  #   sources:
-  #     - products/llbuildSwift
-  #   dependencies:
-  #     - target: libllbuild
-  #   exclude:
-  #   - llbuild.swift
-  #   type: framework
-  #   platform: macOS
-  # libllbuild:
-  #   sources:
-  #     - products/libllbuild
-  #   dependencies:
-  #     - target: llbuildCore
-  #     - target: llbuildBuildSystem
-  #   type: framework
-  #   platform: macOS
-  # llbuildBasic:
-  #   sources:
-  #     - lib/Basic
-  #   dependencies:
-  #     - target: llvmSupport
-  #   type: framework
-  #   platform: macOS
-  # llbuildCore:
-  #   sources:
-  #     - lib/Core
-  #   dependencies:
-  #     - target: llbuildBasic
-  #   settings:
-  #   linkedLibrary:
-  #     tool: linker
-  #     value:
-  #     - sqlite3
-  #   type: framework
-  #   platform: macOS
-  # llbuildBuildSystem:
-  #   sources:
-  #     - lib/BuildSystem
-  #   dependencies:
-  #     - target: llbuildCore
-  #   type: framework
-  #   platform: macOS
-  # llbuildNinja:
-  #   sources:
-  #     - lib/Ninja
-  #   dependencies:
-  #     - target: llbuildBasic
-  #   type: framework
-  #   platform: macOS
-  # llbuildCommands:
-  #   sources:
-  #     - lib/Commands
-  #   dependencies:
-  #     - target: llbuildCore
-  #     - target: llbuildBuildSystem
-  #     - target: llbuildNinja
-  #   type: framework
-  #   platform: macOS
-  # llbuildBasicTests:
-  #   sources:
-  #     - unittests/Basic
-  #   dependencies:
-  #     - target: llbuildBasic
-  #     - target: gtest
-  #   type: framework
-  #   platform: macOS
-  # llbuildCoreTests:
-  #   sources:
-  #     - unittests/Core
-  #   dependencies:
-  #     - target: llbuildCore
-  #     - target: gtest
-  #   type: framework
-  #   platform: macOS
-  # llbuildBuildSystemTests:
-  #   sources:
-  #     - unittests/BuildSystem
-  #   dependencies:
-  #     - target: llbuildBuildSystem
-  #     - target: gtest
-  #   type: framework
-  #   platform: macOS
-  # llbuildNinjaTests:
-  #   sources:
-  #     - unittests/Ninja
-  #   dependencies:
-  #     - target: llbuildNinja
-  #     - target: gtest
-  #   type: framework
-  #   platform: macOS
-  # gtest:
-  #   sources:
-  #     - utils/unittest/googletest/src
-  #   exclude:
-  #   - gtest-death-test.cc
-  #   - gtest-filepath.cc
-  #   - gtest-port.cc
-  #   - gtest-printers.cc
-  #   - gtest-test-part.cc
-  #   - gtest-typed-test.cc
-  #   - gtest.cc
-  #   type: framework
-  #   platform: macOS
-  llvmDemangle:
+  llbuildSwift:
+    dependencies:
+      - target: libllbuild
+      - target: llbuildBuildSystem
+      - target: llbuildCore
+      - target: llbuildBasic
+      - target: llvmSupport
+      - target: llvmDemangle
+    settings:
+      HEADER_SEARCH_PATHS:
+        - "$(SRCROOT)/products/libllbuild/include"
+        - "$(SRCROOT)/lib/BuildSystem/include"
+        - "$(SRCROOT)/lib/Core/include"
+        - "$(SRCROOT)/lib/Basic/include"
+        - "$(SRCROOT)/lib/llvm/Support/include"
+        - "$(SRCROOT)/lib/llvm/Demangle/include"
     sources:
-      - lib/llvm/Demangle
-    excludes:
-      - include
+     - products/llbuildSwift
     type: framework
     platform: macOS
-  # llvmSupport:
-  #   sources:
-  #     - lib/llvm/Support
-  #   dependencies:
-  #     - target: llvmDemangle
-  #   settings:
-  #   linkedLibrary:
-  #     tool: linker
-  #     value:
-  #     - ncurses
-  #   type: framework
-  #   platform: macOS
+  libllbuild:
+    dependencies:
+      - target: llbuildBuildSystem
+      - target: llbuildCore
+      - target: llbuildBasic
+      - target: llvmSupport
+      - target: llvmDemangle
+    settings:
+      HEADER_SEARCH_PATHS:
+        - "$(SRCROOT)/products/libllbuild/include"
+        - "$(SRCROOT)/lib/BuildSystem/include"
+        - "$(SRCROOT)/lib/Core/include"
+        - "$(SRCROOT)/lib/Basic/include"
+        - "$(SRCROOT)/lib/llvm/Support/include"
+        - "$(SRCROOT)/lib/llvm/Demangle/include"
+      CLANG_CXX_LANGUAGE_STANDARD: c++14
+    sources:
+    - products/libllbuild/CMakeLists.txt
+    - products/libllbuild/BuildSystem-C-API.cpp
+    - products/libllbuild/C-API.cpp
+    - products/libllbuild/Core-C-API.cpp
+    - products/libllbuild/include/llbuild/buildsystem.h
+    - products/libllbuild/include/llbuild/core.h
+    - products/libllbuild/include/llbuild/llbuild.h
+    type: framework
+    platform: macOS
+  llbuildBuildSystem:
+    dependencies:
+      - target: llbuildCore
+      - target: llbuildBasic
+      - target: llvmSupport
+      - target: llvmDemangle
+    settings:
+      HEADER_SEARCH_PATHS:
+        - "$(SRCROOT)/lib/BuildSystem/include"
+        - "$(SRCROOT)/lib/Core/include"
+        - "$(SRCROOT)/lib/Basic/include"
+        - "$(SRCROOT)/lib/llvm/Support/include"
+        - "$(SRCROOT)/lib/llvm/Demangle/include"
+      CLANG_CXX_LANGUAGE_STANDARD: c++14
+    sources:
+    - lib/BuildSystem/CMakeLists.txt
+    - lib/BuildSystem/BuildDescription.cpp
+    - lib/BuildSystem/BuildFile.cpp
+    - lib/BuildSystem/BuildKey.cpp
+    - lib/BuildSystem/BuildNode.cpp
+    - lib/BuildSystem/BuildSystem.cpp
+    - lib/BuildSystem/BuildSystemExtensionManager.cpp
+    - lib/BuildSystem/BuildSystemFrontend.cpp
+    - lib/BuildSystem/BuildValue.cpp
+    - lib/BuildSystem/ExternalCommand.cpp
+    - lib/BuildSystem/ShellCommand.cpp
+    type: framework
+    platform: macOS
+  llbuildCore:
+    dependencies:
+      - target: llbuildBasic
+      - target: llvmSupport
+      - target: llvmDemangle
+    settings:
+      HEADER_SEARCH_PATHS:
+        - "$(SRCROOT)/lib/Core/include"
+        - "$(SRCROOT)/lib/Basic/include"
+        - "$(SRCROOT)/lib/llvm/Support/include"
+        - "$(SRCROOT)/lib/llvm/Demangle/include"
+      OTHER_LDFLAGS:
+        - "-lsqlite3"
+      CLANG_CXX_LANGUAGE_STANDARD: c++14
+    sources:
+      - lib/Core/BuildEngineTrace.h
+      - lib/Core/CMakeLists.txt
+      - lib/Core/BuildDB.cpp
+      - lib/Core/BuildEngine.cpp
+      - lib/Core/BuildEngineTrace.cpp
+      - lib/Core/DependencyInfoParser.cpp
+      - lib/Core/MakefileDepsParser.cpp
+      - lib/Core/SQLiteBuildDB.cpp
+    type: framework
+    platform: macOS
+  llbuildBasic:
+    dependencies:
+      - target: llvmSupport
+      - target: llvmDemangle
+    settings:
+      HEADER_SEARCH_PATHS:
+        - "$(SRCROOT)/lib/Basic/include"
+        - "$(SRCROOT)/lib/llvm/Support/include"
+        - "$(SRCROOT)/lib/llvm/Demangle/include"
+      CLANG_CXX_LANGUAGE_STANDARD: c++14
+    sources:
+    - lib/Basic/CMakeLists.txt
+    - lib/Basic/LeanWindows.h
+    - lib/Basic/ExecutionQueue.cpp
+    - lib/Basic/FileInfo.cpp
+    - lib/Basic/FileSystem.cpp
+    - lib/Basic/Hashing.cpp
+    - lib/Basic/LaneBasedExecutionQueue.cpp
+    - lib/Basic/PlatformUtility.cpp
+    - lib/Basic/SerialQueue.cpp
+    - lib/Basic/ShellUtility.cpp
+    - lib/Basic/Subprocess.cpp
+    - lib/Basic/Tracing.cpp
+    - lib/Basic/Version.cpp
+    type: framework
+    platform: macOS
+  llvmSupport:
+    dependencies:
+      - target: llvmDemangle
+    settings:
+      HEADER_SEARCH_PATHS:
+        - "$(SRCROOT)/lib/llvm/Support/include"
+        - "$(SRCROOT)/lib/llvm/Demangle/include"
+      OTHER_LDFLAGS:
+        - "-lncurses"
+      CLANG_CXX_LANGUAGE_STANDARD: c++14
+    sources:
+    - lib/llvm/Support/CMakeLists.txt
+    - lib/llvm/Support/APFloat.cpp
+    - lib/llvm/Support/APInt.cpp
+    - lib/llvm/Support/APSInt.cpp
+    - lib/llvm/Support/Allocator.cpp
+    - lib/llvm/Support/Atomic.cpp
+    - lib/llvm/Support/Chrono.cpp
+    - lib/llvm/Support/CommandLine.cpp
+    - lib/llvm/Support/ConvertUTF.cpp
+    - lib/llvm/Support/ConvertUTFWrapper.cpp
+    - lib/llvm/Support/DJB.cpp
+    - lib/llvm/Support/Debug.cpp
+    - lib/llvm/Support/Errno.cpp
+    - lib/llvm/Support/Error.cpp
+    - lib/llvm/Support/ErrorHandling.cpp
+    - lib/llvm/Support/FileUtilities.cpp
+    - lib/llvm/Support/FoldingSet.cpp
+    - lib/llvm/Support/FormatVariadic.cpp
+    - lib/llvm/Support/Hashing.cpp
+    - lib/llvm/Support/Host.cpp
+    - lib/llvm/Support/Locale.cpp
+    - lib/llvm/Support/MD5.cpp
+    - lib/llvm/Support/ManagedStatic.cpp
+    - lib/llvm/Support/MathExtras.cpp
+    - lib/llvm/Support/Memory.cpp
+    - lib/llvm/Support/MemoryBuffer.cpp
+    - lib/llvm/Support/Mutex.cpp
+    - lib/llvm/Support/NativeFormatting.cpp
+    - lib/llvm/Support/Options.cpp
+    - lib/llvm/Support/Path.cpp
+    - lib/llvm/Support/Process.cpp
+    - lib/llvm/Support/Program.cpp
+    - lib/llvm/Support/Signals.cpp
+    - lib/llvm/Support/SmallPtrSet.cpp
+    - lib/llvm/Support/SmallVector.cpp
+    - lib/llvm/Support/SourceMgr.cpp
+    - lib/llvm/Support/StringExtras.cpp
+    - lib/llvm/Support/StringMap.cpp
+    - lib/llvm/Support/StringRef.cpp
+    - lib/llvm/Support/StringSaver.cpp
+    - lib/llvm/Support/TargetParser.cpp
+    - lib/llvm/Support/Threading.cpp
+    - lib/llvm/Support/Triple.cpp
+    - lib/llvm/Support/Twine.cpp
+    - lib/llvm/Support/Unicode.cpp
+    - lib/llvm/Support/UnicodeCaseFold.cpp
+    - lib/llvm/Support/Valgrind.cpp
+    - lib/llvm/Support/YAMLParser.cpp
+    - lib/llvm/Support/circular_raw_ostream.cpp
+    - lib/llvm/Support/raw_ostream.cpp
+    type: framework
+    platform: macOS
+  llvmDemangle:
+    settings:
+      HEADER_SEARCH_PATHS:
+        - "$(SRCROOT)/lib/llvm/Demangle/include"
+      CLANG_CXX_LANGUAGE_STANDARD: c++14
+    sources:
+    - lib/llvm/Demangle/CMakeLists.txt
+    - lib/llvm/Demangle/Compiler.h
+    - lib/llvm/Demangle/LLVMBuild.txt
+    - lib/llvm/Demangle/StringView.h
+    - lib/llvm/Demangle/Utility.h
+    - lib/llvm/Demangle/ItaniumDemangle.cpp
+    - lib/llvm/Demangle/MicrosoftDemangle.cpp
+    type: framework
+    platform: macOS
