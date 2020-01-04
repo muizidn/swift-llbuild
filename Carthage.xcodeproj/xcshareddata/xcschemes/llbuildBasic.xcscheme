@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "769C09B8592B3E1EC82A64F5"
-               BuildableName = "llvmDemangle.framework"
-               BlueprintName = "llvmDemangle"
-               ReferencedContainer = "container:XcodeGen.xcodeproj">
+               BlueprintIdentifier = "75CAA1FB6A6AAB50297496FA"
+               BuildableName = "llbuildBasic.framework"
+               BlueprintName = "llbuildBasic"
+               ReferencedContainer = "container:Carthage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,10 +33,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "769C09B8592B3E1EC82A64F5"
-            BuildableName = "llvmDemangle.framework"
-            BlueprintName = "llvmDemangle"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            BlueprintIdentifier = "75CAA1FB6A6AAB50297496FA"
+            BuildableName = "llbuildBasic.framework"
+            BlueprintName = "llbuildBasic"
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,10 +57,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "769C09B8592B3E1EC82A64F5"
-            BuildableName = "llvmDemangle.framework"
-            BlueprintName = "llvmDemangle"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            BlueprintIdentifier = "75CAA1FB6A6AAB50297496FA"
+            BuildableName = "llbuildBasic.framework"
+            BlueprintName = "llbuildBasic"
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "769C09B8592B3E1EC82A64F5"
-            BuildableName = "llvmDemangle.framework"
-            BlueprintName = "llvmDemangle"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            BlueprintIdentifier = "75CAA1FB6A6AAB50297496FA"
+            BuildableName = "llbuildBasic.framework"
+            BlueprintName = "llbuildBasic"
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

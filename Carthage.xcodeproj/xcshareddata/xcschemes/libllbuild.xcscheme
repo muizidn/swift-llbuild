@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C85A6DFC2507FF330F832670"
-               BuildableName = "llbuildCore.framework"
-               BlueprintName = "llbuildCore"
-               ReferencedContainer = "container:XcodeGen.xcodeproj">
+               BlueprintIdentifier = "D15B70617E4374D7852DF2C4"
+               BuildableName = "libllbuild.framework"
+               BlueprintName = "libllbuild"
+               ReferencedContainer = "container:Carthage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,10 +33,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C85A6DFC2507FF330F832670"
-            BuildableName = "llbuildCore.framework"
-            BlueprintName = "llbuildCore"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            BlueprintIdentifier = "D15B70617E4374D7852DF2C4"
+            BuildableName = "libllbuild.framework"
+            BlueprintName = "libllbuild"
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,10 +57,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C85A6DFC2507FF330F832670"
-            BuildableName = "llbuildCore.framework"
-            BlueprintName = "llbuildCore"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            BlueprintIdentifier = "D15B70617E4374D7852DF2C4"
+            BuildableName = "libllbuild.framework"
+            BlueprintName = "libllbuild"
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C85A6DFC2507FF330F832670"
-            BuildableName = "llbuildCore.framework"
-            BlueprintName = "llbuildCore"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            BlueprintIdentifier = "D15B70617E4374D7852DF2C4"
+            BuildableName = "libllbuild.framework"
+            BlueprintName = "libllbuild"
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

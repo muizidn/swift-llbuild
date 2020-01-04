@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E1127248299377144EB585B2"
+               BlueprintIdentifier = "E603F9169DA9C758EAAD0B5E"
                BuildableName = "llvmSupport.framework"
                BlueprintName = "llvmSupport"
-               ReferencedContainer = "container:XcodeGen.xcodeproj">
+               ReferencedContainer = "container:Carthage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,10 +33,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1127248299377144EB585B2"
+            BlueprintIdentifier = "E603F9169DA9C758EAAD0B5E"
             BuildableName = "llvmSupport.framework"
             BlueprintName = "llvmSupport"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,10 +57,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1127248299377144EB585B2"
+            BlueprintIdentifier = "E603F9169DA9C758EAAD0B5E"
             BuildableName = "llvmSupport.framework"
             BlueprintName = "llvmSupport"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1127248299377144EB585B2"
+            BlueprintIdentifier = "E603F9169DA9C758EAAD0B5E"
             BuildableName = "llvmSupport.framework"
             BlueprintName = "llvmSupport"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

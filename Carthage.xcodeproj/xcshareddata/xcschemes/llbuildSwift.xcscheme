@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3ABB21DFE0FA158FD613B227"
-               BuildableName = "llbuildBuildSystem.framework"
-               BlueprintName = "llbuildBuildSystem"
-               ReferencedContainer = "container:XcodeGen.xcodeproj">
+               BlueprintIdentifier = "2899951896BCDF9E1492F87B"
+               BuildableName = "llbuildSwift.framework"
+               BlueprintName = "llbuildSwift"
+               ReferencedContainer = "container:Carthage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,10 +33,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3ABB21DFE0FA158FD613B227"
-            BuildableName = "llbuildBuildSystem.framework"
-            BlueprintName = "llbuildBuildSystem"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            BlueprintIdentifier = "2899951896BCDF9E1492F87B"
+            BuildableName = "llbuildSwift.framework"
+            BlueprintName = "llbuildSwift"
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,10 +57,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3ABB21DFE0FA158FD613B227"
-            BuildableName = "llbuildBuildSystem.framework"
-            BlueprintName = "llbuildBuildSystem"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            BlueprintIdentifier = "2899951896BCDF9E1492F87B"
+            BuildableName = "llbuildSwift.framework"
+            BlueprintName = "llbuildSwift"
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3ABB21DFE0FA158FD613B227"
-            BuildableName = "llbuildBuildSystem.framework"
-            BlueprintName = "llbuildBuildSystem"
-            ReferencedContainer = "container:XcodeGen.xcodeproj">
+            BlueprintIdentifier = "2899951896BCDF9E1492F87B"
+            BuildableName = "llbuildSwift.framework"
+            BlueprintName = "llbuildSwift"
+            ReferencedContainer = "container:Carthage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

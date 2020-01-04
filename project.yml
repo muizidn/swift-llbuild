@@ -1,4 +1,4 @@
-name: XcodeGen
+name: Carthage
 schemes:
   llbuildSwift:
     build:
@@ -37,14 +37,14 @@ targets:
       - target: llbuildBasic
       - target: llvmSupport
       - target: llvmDemangle
-    settings:
-      HEADER_SEARCH_PATHS:
-        - "$(SRCROOT)/products/libllbuild/include"
-        - "$(SRCROOT)/lib/BuildSystem/include"
-        - "$(SRCROOT)/lib/Core/include"
-        - "$(SRCROOT)/lib/Basic/include"
-        - "$(SRCROOT)/lib/llvm/Support/include"
-        - "$(SRCROOT)/lib/llvm/Demangle/include"
+    # settings:
+      # HEADER_SEARCH_PATHS:
+      #   - "$(SRCROOT)/products/libllbuild/include"
+      #   - "$(SRCROOT)/lib/BuildSystem/include"
+      #   - "$(SRCROOT)/lib/Core/include"
+      #   - "$(SRCROOT)/lib/Basic/include"
+      #   - "$(SRCROOT)/lib/llvm/Support/include"
+      #   - "$(SRCROOT)/lib/llvm/Demangle/include"
     sources:
      - products/llbuildSwift
     type: framework
@@ -57,15 +57,11 @@ targets:
       - target: llvmSupport
       - target: llvmDemangle
     settings:
-      HEADER_SEARCH_PATHS:
-        - "$(SRCROOT)/products/libllbuild/include"
-        - "$(SRCROOT)/lib/BuildSystem/include"
-        - "$(SRCROOT)/lib/Core/include"
-        - "$(SRCROOT)/lib/Basic/include"
-        - "$(SRCROOT)/lib/llvm/Support/include"
-        - "$(SRCROOT)/lib/llvm/Demangle/include"
+      MODULEMAP_FILE:
+          - "$(SRCROOT)/products/libllbuild/include/module.modulemap"
       CLANG_CXX_LANGUAGE_STANDARD: c++14
     sources:
+    - products/libllbuild/include/module.modulemap
     - products/libllbuild/CMakeLists.txt
     - products/libllbuild/BuildSystem-C-API.cpp
     - products/libllbuild/C-API.cpp

@@ -1,7 +1,8 @@
 # Just to make sure Carthage doesn't fail.
 *.xcodeproj
-!XcodeGen.xcodeproj
+!Carthage.xcodeproj
 Carthage/
+Workspace.xcworkspace
 
 #==============================================================================#
 # File extensions to be ignored anywhere in the tree.
