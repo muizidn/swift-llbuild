@@ -1057,12 +1057,15 @@
 					"$(SRCROOT)/lib/llvm/Support/include",
 					"$(SRCROOT)/lib/llvm/Demangle/include",
 				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				OTHER_LDFLAGS = "-lsqlite3";
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+				);
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1083,12 +1086,15 @@
 					"$(SRCROOT)/lib/llvm/Support/include",
 					"$(SRCROOT)/lib/llvm/Demangle/include",
 				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				OTHER_LDFLAGS = "-lncurses";
+				OTHER_LDFLAGS = (
+					"-lncurses",
+				);
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1110,6 +1116,7 @@
 					"$(SRCROOT)/lib/llvm/Support/include",
 					"$(SRCROOT)/lib/llvm/Demangle/include",
 				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1131,7 +1138,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/lib/llvm/Demangle/include";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/lib/llvm/Demangle/include",
+				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1160,6 +1170,7 @@
 					"$(SRCROOT)/lib/llvm/Support/include",
 					"$(SRCROOT)/lib/llvm/Demangle/include",
 				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1186,6 +1197,7 @@
 					"$(SRCROOT)/lib/llvm/Support/include",
 					"$(SRCROOT)/lib/llvm/Demangle/include",
 				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1215,12 +1227,15 @@
 					"$(SRCROOT)/lib/llvm/Support/include",
 					"$(SRCROOT)/lib/llvm/Demangle/include",
 				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/products/libllbuild/include/module.modulemap";
+				MODULEMAP_FILE = (
+					"$(SRCROOT)/products/libllbuild/include/module.modulemap",
+				);
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1245,12 +1260,15 @@
 					"$(SRCROOT)/lib/llvm/Support/include",
 					"$(SRCROOT)/lib/llvm/Demangle/include",
 				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/products/libllbuild/include/module.modulemap";
+				MODULEMAP_FILE = (
+					"$(SRCROOT)/products/libllbuild/include/module.modulemap",
+				);
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1290,7 +1308,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/lib/llvm/Demangle/include";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/lib/llvm/Demangle/include",
+				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1401,6 +1422,7 @@
 					"$(SRCROOT)/lib/llvm/Support/include",
 					"$(SRCROOT)/lib/llvm/Demangle/include",
 				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1428,12 +1450,15 @@
 					"$(SRCROOT)/lib/llvm/Support/include",
 					"$(SRCROOT)/lib/llvm/Demangle/include",
 				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				OTHER_LDFLAGS = "-lsqlite3";
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+				);
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1454,12 +1479,15 @@
 					"$(SRCROOT)/lib/llvm/Support/include",
 					"$(SRCROOT)/lib/llvm/Demangle/include",
 				);
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				OTHER_LDFLAGS = "-lncurses";
+				OTHER_LDFLAGS = (
+					"-lncurses",
+				);
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";

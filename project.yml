@@ -31,6 +31,7 @@ schemes:
 targets:
   llvmDemangle:
     settings:
+      INFOPLIST_FILE: plist/Info.plist
       HEADER_SEARCH_PATHS:
         - "$(SRCROOT)/lib/llvm/Demangle/include"        
     sources:
@@ -43,6 +44,7 @@ targets:
     dependencies:
       - target: llvmDemangle
     settings:
+      INFOPLIST_FILE: plist/Info.plist
       HEADER_SEARCH_PATHS:
         - "$(SRCROOT)/lib/llvm/Support/include"        
         - "$(SRCROOT)/lib/llvm/Demangle/include"
@@ -59,6 +61,7 @@ targets:
       - target: llvmSupport
       - target: llvmDemangle
     settings:
+      INFOPLIST_FILE: plist/Info.plist
       HEADER_SEARCH_PATHS:
         - "$(SRCROOT)/lib/Basic/include"
         - "$(SRCROOT)/lib/llvm/Support/include"
@@ -75,6 +78,7 @@ targets:
       - target: llvmSupport
       - target: llvmDemangle
     settings:
+      INFOPLIST_FILE: plist/Info.plist
       HEADER_SEARCH_PATHS:
         - "$(SRCROOT)/lib/Core/include"
         - "$(SRCROOT)/lib/Basic/include"
@@ -95,6 +99,7 @@ targets:
       - target: llvmSupport
       - target: llvmDemangle
     settings:
+      INFOPLIST_FILE: plist/Info.plist
       HEADER_SEARCH_PATHS:
         - "$(SRCROOT)/lib/BuildSystem/include"
         - "$(SRCROOT)/lib/Core/include"
@@ -115,6 +120,7 @@ targets:
       - target: llvmSupport
       - target: llvmDemangle
     settings:
+      INFOPLIST_FILE: plist/Info.plist
       HEADER_SEARCH_PATHS:
           - "$(SRCROOT)/products/libllbuild/include"
           - "$(SRCROOT)/lib/BuildSystem/include"
