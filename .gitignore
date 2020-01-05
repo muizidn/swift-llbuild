@@ -3,6 +3,8 @@
 !Carthage.xcodeproj
 Carthage/
 Workspace.xcworkspace
+DerivedData/
+temp/
 
 #==============================================================================#
 # File extensions to be ignored anywhere in the tree.

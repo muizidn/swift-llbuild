@@ -22,7 +22,7 @@ import Foundation
 // We don't need this import if we're building
 // this file as part of the llbuild framework.
 #if !LLBUILD_FRAMEWORK
-import llbuild
+import libllbuild
 #endif
 
 private func bytesFromData(_ data: llb_data_t) -> [UInt8] {
@@ -874,7 +874,7 @@ public final class BuildSystem {
         }
     }
 
-    public typealias SchedulerAlgorithm = llbuild.SchedulerAlgorithm
+    public typealias SchedulerAlgorithm = libllbuild.SchedulerAlgorithm
 
     /// Get the scheduler algorithm
     public static func getSchedulerAlgorithm() -> SchedulerAlgorithm {

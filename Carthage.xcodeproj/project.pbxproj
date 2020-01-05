@@ -11,7 +11,6 @@
 		038C9683334C87E8B9AE18F6 /* Valgrind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A53333D211BB5CCB980E452F /* Valgrind.cpp */; };
 		097EA10D6F4523B40E0A4A14 /* SmallPtrSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07F73F2CC9C8C48BF2A70098 /* SmallPtrSet.cpp */; };
 		09C966EA06319982FFFCB4B3 /* BuildDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6DC0F1491B8E02F9CED7F /* BuildDescription.cpp */; };
-		0B873D77345C8FD08B099945 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB0B3774DFA6D4A80780DA3 /* core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E2D5CE0D3D0A24D1190BCFE /* FileSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7461A34FF4AC4BE29F86571 /* FileSystem.cpp */; };
 		0FA0872FC570C54D98B592A2 /* llvmDemangle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95CCF3298E0527BF966549C /* llvmDemangle.framework */; };
 		0FB69AF3E9353BD25BC44DCE /* LaneBasedExecutionQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71010D4DB715DEAE642A4BF6 /* LaneBasedExecutionQueue.cpp */; };
@@ -22,7 +21,6 @@
 		1CED4B5A977613B8DC57541D /* BuildSystemFrontend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0FB91D3F6924F40E7C53996 /* BuildSystemFrontend.cpp */; };
 		1CFEF80B6CC4D5B4469F80A0 /* Atomic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8CC18EB79E379CF53BB6673 /* Atomic.cpp */; };
 		1EF780A0DF4DD90566474941 /* DependencyInfoParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C69028454EAAF27EDD4F27 /* DependencyInfoParser.cpp */; };
-		2336E8E94B18644501A9A720 /* LLVMBuild.txt in Resources */ = {isa = PBXBuildFile; fileRef = 844F642718D6034B2C31A39F /* LLVMBuild.txt */; };
 		23BD955BB231381DDB12FE45 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D047D3B2572A815ABD22294 /* Version.cpp */; };
 		27AAB21577890C76CDC57E7A /* llvmSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A365B36ED93EA43ED8776E0 /* llvmSupport.framework */; };
 		2A7F55DE8A17D9848D75B8EF /* ConvertUTF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B45E4249D15E45CDFDE8B1 /* ConvertUTF.cpp */; };
@@ -30,9 +28,7 @@
 		2AF206E1DD229C65A05D8EF4 /* Options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5DA873DEC08E7D0758E9E1 /* Options.cpp */; };
 		2D94E58F019B5111B67ECD0C /* ShellUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D25AE2834898E47EDF3C /* ShellUtility.cpp */; };
 		2F1D261321239ADCDC3AC312 /* BuildSystem-C-API.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C109448BECC48D77E73C9 /* BuildSystem-C-API.cpp */; };
-		30AAF18618FADB2E5670E1A1 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1EF7D06A565C65599FC590E /* CMakeLists.txt */; };
 		30B3627B8AB212C61170B9C9 /* Tracing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6C6F4D04635F08F0CC23E42 /* Tracing.cpp */; };
-		30BEF1407C2ACBFC3AAFC64F /* LeanWindows.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CD36ABECCF1BDDE06A3E59 /* LeanWindows.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3406255E4CBE448AEC5E599E /* MemoryBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC48A38CC4ACFD5847A2ADDF /* MemoryBuffer.cpp */; };
 		34888F4B470EBE67A66C5528 /* llvmSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A365B36ED93EA43ED8776E0 /* llvmSupport.framework */; };
 		35716A3D8F04F05892651AD7 /* circular_raw_ostream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7154F7614AEBBF641F9DA42 /* circular_raw_ostream.cpp */; };
@@ -40,16 +36,15 @@
 		3BF8096A4F8B0138FC5470D7 /* Triple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D347AA6829ECF3632C7E0FA /* Triple.cpp */; };
 		47330FD445101DB6AE1768F5 /* ErrorHandling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28E4859B0B7CAAA20A4D50C0 /* ErrorHandling.cpp */; };
 		4B17F70A491D0DC2F62D1ABC /* Signals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC17BF53F6A78A32FF5D74B6 /* Signals.cpp */; };
-		4C670ECA369CFA0770C33B72 /* Compiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0AF71EFB1FE02CD8997F2D /* Compiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EACED73A13A9B3A0B702710 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = C2AAE29E82D41A4D8ED4038F /* CMakeLists.txt */; };
 		4EBCD60F965D805DABD13205 /* llbuildBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ED6C606EB7D34BD2DFC901 /* llbuildBasic.framework */; };
 		4EC01B7A11FA6B8AEC32C2BE /* MD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379D205E2C49A813D702E370 /* MD5.cpp */; };
-		53E419CEA023B32A2789A649 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52102B329806627E284FF2C0 /* CMakeLists.txt */; };
+		5518F5BC449FA55DDFA8B756 /* buildsystem.h in Headers */ = {isa = PBXBuildFile; fileRef = F9203B0213B62829A847D74B /* buildsystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		560F363B08ED3DA89DE41583 /* llvmDemangle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95CCF3298E0527BF966549C /* llvmDemangle.framework */; };
 		592B58BBA4DD0B3D5D56C87C /* ShellCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A182BABA64AAEAFDA9037BF /* ShellCommand.cpp */; };
 		629856B11D93502DFDA1D4EC /* SerialQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78B6E91E9C407A8E64C28B68 /* SerialQueue.cpp */; };
 		62D0A0EEDF37942EC2CF33DA /* BuildDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF7E48B4717C2087866346AA /* BuildDB.cpp */; };
 		6301EB10380BE2DDEB7D9DAA /* BuildNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 094A6AD2D5E99DFA4F22CE44 /* BuildNode.cpp */; };
+		63B2BCF4B005AB2C102EE341 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F9493A59B0D72EDE034DB2 /* core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65912F5F9A74498BCE250839 /* CommandLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74838D8B3A253F5C46D5D9DB /* CommandLine.cpp */; };
 		65E05A105BADBDE0A72C87B7 /* MathExtras.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18EF3D149FC2F1F4A1C9D2D9 /* MathExtras.cpp */; };
 		6804FB69CCF255F07D63B24C /* Path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A5F012F27368B66710AB15D /* Path.cpp */; };
@@ -62,23 +57,19 @@
 		73B746B05FED5C6C8F598327 /* APInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FECF2EDB7E1616A0284B9A36 /* APInt.cpp */; };
 		73C8B7AF372954988BD500D4 /* ItaniumDemangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57D8A6442633932D08994CA0 /* ItaniumDemangle.cpp */; };
 		782E0CCE61F8C08B7C9B5BD5 /* TargetParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7FA4BCEF1F3BD534769901 /* TargetParser.cpp */; };
-		7D771130244C2C6756D2453F /* StringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A46E9444021E7FCB4EE5AE7 /* StringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DD66A1ED68189312B34BE0F /* libllbuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EFE03890483967CDCA5704 /* libllbuild.framework */; };
 		7F2C2BB171A4612120740E8D /* llbuildCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F956DE93596EF95ADE48F5 /* llbuildCore.framework */; };
 		82DA4D104C709950E571DE80 /* YAMLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0BE435E3B05CCAE98CA9CE3 /* YAMLParser.cpp */; };
 		84769BE11F57450CB9CF323E /* BuildSystemExtensionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF7FC25DA62FB93ADB1D81C6 /* BuildSystemExtensionManager.cpp */; };
 		84D1671B94C0651D84B6EF08 /* Threading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B76A46CA59943B50A941B4BE /* Threading.cpp */; };
 		861B71DAB329C761365240B4 /* Program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D756459F94ACE62EE4711BAF /* Program.cpp */; };
-		8853BB1256BD8BA3145C3000 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA20FA0D1F0AA31055FCD6B3 /* CMakeLists.txt */; };
 		88FBB17944FCC9A377D2A9B5 /* SourceMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42796D5BB42F2036C479EC82 /* SourceMgr.cpp */; };
-		8955D112EA5AB6888B72464E /* BuildEngineTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ADC9B30B5C9B3E02BBD200 /* BuildEngineTrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BD06D90B82BB881CD3CF099 /* FileUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9994D950530E1FE3E49B68A9 /* FileUtilities.cpp */; };
 		905FD728053221701E6EABC7 /* Subprocess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF257E7661AB48657AC90390 /* Subprocess.cpp */; };
 		90FF9CD6C3D81FFB72D8448C /* llbuildBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ED6C606EB7D34BD2DFC901 /* llbuildBasic.framework */; };
 		92C7E50667CB5E377F234A8F /* Memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16BD291B87C2A5247210DEBB /* Memory.cpp */; };
 		932597F026634DA4BBCEEF3D /* BuildSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA85081870B0D3284F42F61 /* BuildSystem.cpp */; };
 		93507A3EB854BBF21940A6DF /* StringSaver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22746243D4FB2457ACDAD55F /* StringSaver.cpp */; };
-		9391FF98C921E509E022B737 /* buildsystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B77B07785B97D242900DA0 /* buildsystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94D66BE0707C7D039B4344CA /* ConvertUTFWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 587A4F743EF57B2BA9196F2F /* ConvertUTFWrapper.cpp */; };
 		969363AFBACDB1A5F48798BF /* ExternalCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E76B202FCB9034718E444DD /* ExternalCommand.cpp */; };
 		96C4C45F03ECFE04095C76B6 /* llbuildCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F956DE93596EF95ADE48F5 /* llbuildCore.framework */; };
@@ -88,7 +79,6 @@
 		9FA25F306B1BA51124AC8766 /* Core-C-API.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F92B1AB44CE1FA4CF57E37ED /* Core-C-API.cpp */; };
 		A004A4855476CFE58A1EBEC1 /* Debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 529B606B68CE87D8B38EFFFA /* Debug.cpp */; };
 		A0571A0D4D2DEBD8FAB35C41 /* DJB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23BF0728F1E019651BD97352 /* DJB.cpp */; };
-		A351E61F99B9B3B43351B755 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1ECF5FF7F4152D0403BBFF4A /* CMakeLists.txt */; };
 		A5F4DC1FF5DE3AEF692B8BDE /* Mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C835FB8CCEBB8600942E1279 /* Mutex.cpp */; };
 		A856265A1CC093A172F6DED9 /* C-API.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D66A3A56D5701299CE3F1D0 /* C-API.cpp */; };
 		AB83C35BD1B559D2D26EE6D0 /* NativeFormatting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5F241149EE6D035EC5DB615 /* NativeFormatting.cpp */; };
@@ -98,10 +88,10 @@
 		B1AD626450BB5B4A9C880EC4 /* Error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5705E4FF9BE4B1E25CDFB192 /* Error.cpp */; };
 		B57FEFCF3551F80A537C5AEF /* llvmSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A365B36ED93EA43ED8776E0 /* llvmSupport.framework */; };
 		B5CAE453FF04EFB0909D1AC0 /* Unicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 098C9EE1A8C4BE590816B2E1 /* Unicode.cpp */; };
+		BA2DC4CF0928F805384A5FAF /* llbuild.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A187D4711050DD6DF9A0C88 /* llbuild.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBEE139CD32FBB5395959BB1 /* BuildValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CA6B1DAD1B9F333931F95 /* BuildValue.cpp */; };
 		BD8F6DA304D50975CAA4B491 /* llvmSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A365B36ED93EA43ED8776E0 /* llvmSupport.framework */; };
 		BE89561F4E328E6D553E6844 /* StringExtras.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE6176C5DCAD071B370B9712 /* StringExtras.cpp */; };
-		C0CDFA67739EBEB449FB2101 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 386C9DE527EAED05B7757194 /* CMakeLists.txt */; };
 		C4833B4E74696671D9DB73F9 /* SmallVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5079ADA518BFD04883AD89E /* SmallVector.cpp */; };
 		C6DC52D43185CDB3B9B7C62F /* Hashing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1B90B6E22696765FCD79CAB /* Hashing.cpp */; };
 		CAF3519344A082F2B4612B81 /* Process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D3261E71EAAA1A645C395BD /* Process.cpp */; };
@@ -111,7 +101,6 @@
 		D4BAC3D6F7B8E115637B07D6 /* llbuildBuildSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B331FBCC141D924A17A3F6 /* llbuildBuildSystem.framework */; };
 		D674B29197B1D2DE440FBDD0 /* MakefileDepsParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 735C3867AF241EA3E1BFD04A /* MakefileDepsParser.cpp */; };
 		D81F2ECDCD955EFEFA96B390 /* APSInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E934C0FFBDF36C0D97959EE /* APSInt.cpp */; };
-		DB2FC19C0FD78F1A7B3DE7B9 /* llbuild.h in Headers */ = {isa = PBXBuildFile; fileRef = 153F7A5DA7BEB7AA262E77CB /* llbuild.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDC2013F2EB0DA63B94A18C2 /* llvmSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A365B36ED93EA43ED8776E0 /* llvmSupport.framework */; };
 		DEBD0D56BED886151D8A083C /* Host.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59EA03155136E2604720D056 /* Host.cpp */; };
 		E26FA13415738C5273B89C50 /* ManagedStatic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26F3F1BEDF293222B203AA45 /* ManagedStatic.cpp */; };
@@ -120,11 +109,9 @@
 		E7B27CEA79070E5CCEA73500 /* UnicodeCaseFold.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8C1D4CA603D019BDE71920B /* UnicodeCaseFold.cpp */; };
 		EB250F429078A3B128953B1F /* StringMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5D19587F13EBF7ACB31025B /* StringMap.cpp */; };
 		EBDD6B132692019007A42604 /* Locale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86AC8842D14BFE51E6669B2B /* Locale.cpp */; };
-		F1B8855EF5957BB4AFB0B7D1 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5908E7B5950B62F08DC70518 /* CMakeLists.txt */; };
 		F50413E2EFC951675B097002 /* Errno.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0C862CA4675B007555433 /* Errno.cpp */; };
 		F8B8481B9853C7A3AE5F68F2 /* BuildKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E5533BB774C3FD26EA91C00 /* BuildKey.cpp */; };
 		FA574BB47B1685B6B5BB16EF /* SQLiteBuildDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7FE2CFA4802CC086558EE60 /* SQLiteBuildDB.cpp */; };
-		FE0253C220251ACD20894336 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3F45207B488E873B2BD1A5 /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF01F2ABD35043E6258B4004 /* BuildEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8444CFD4B0F073F240629784 /* BuildEngine.cpp */; };
 		FF9F1FDF2519D5075EDE3F5C /* BuildEngineTrace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C8AD0CB3ADE0360763B3F62 /* BuildEngineTrace.cpp */; };
 /* End PBXBuildFile section */
@@ -286,13 +273,9 @@
 		098C9EE1A8C4BE590816B2E1 /* Unicode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Unicode.cpp; sourceTree = "<group>"; };
 		099DFA98D6562FB80B768767 /* Twine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Twine.cpp; sourceTree = "<group>"; };
 		0E934C0FFBDF36C0D97959EE /* APSInt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = APSInt.cpp; sourceTree = "<group>"; };
-		153F7A5DA7BEB7AA262E77CB /* llbuild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = llbuild.h; sourceTree = "<group>"; };
-		15ADC9B30B5C9B3E02BBD200 /* BuildEngineTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuildEngineTrace.h; sourceTree = "<group>"; };
 		16BD291B87C2A5247210DEBB /* Memory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Memory.cpp; sourceTree = "<group>"; };
 		18B710FB4EE8202A87927F4C /* FormatVariadic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FormatVariadic.cpp; sourceTree = "<group>"; };
 		18EF3D149FC2F1F4A1C9D2D9 /* MathExtras.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MathExtras.cpp; sourceTree = "<group>"; };
-		19B98C0E5DB71CEB8CC8B751 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		1ECF5FF7F4152D0403BBFF4A /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		20F956DE93596EF95ADE48F5 /* llbuildCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = llbuildCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22746243D4FB2457ACDAD55F /* StringSaver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringSaver.cpp; sourceTree = "<group>"; };
 		22B331FBCC141D924A17A3F6 /* llbuildBuildSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = llbuildBuildSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -307,8 +290,8 @@
 		2E76B202FCB9034718E444DD /* ExternalCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExternalCommand.cpp; sourceTree = "<group>"; };
 		34F8089ECB34614F33DABE34 /* FoldingSet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FoldingSet.cpp; sourceTree = "<group>"; };
 		379D205E2C49A813D702E370 /* MD5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MD5.cpp; sourceTree = "<group>"; };
-		386C9DE527EAED05B7757194 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		3A182BABA64AAEAFDA9037BF /* ShellCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShellCommand.cpp; sourceTree = "<group>"; };
+		3A187D4711050DD6DF9A0C88 /* llbuild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = llbuild.h; sourceTree = "<group>"; };
 		3D66A3A56D5701299CE3F1D0 /* C-API.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C-API.cpp"; sourceTree = "<group>"; };
 		3DA6DC0F1491B8E02F9CED7F /* BuildDescription.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuildDescription.cpp; sourceTree = "<group>"; };
 		41D8D25AE2834898E47EDF3C /* ShellUtility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShellUtility.cpp; sourceTree = "<group>"; };
@@ -316,13 +299,11 @@
 		4B0CF2C66050A707AB8B6078 /* Allocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Allocator.cpp; sourceTree = "<group>"; };
 		4C7FA4BCEF1F3BD534769901 /* TargetParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TargetParser.cpp; sourceTree = "<group>"; };
 		4D047D3B2572A815ABD22294 /* Version.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Version.cpp; sourceTree = "<group>"; };
-		52102B329806627E284FF2C0 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		529B606B68CE87D8B38EFFFA /* Debug.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Debug.cpp; sourceTree = "<group>"; };
 		56E18994DD2EE13D84F49FAF /* Chrono.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chrono.cpp; sourceTree = "<group>"; };
 		5705E4FF9BE4B1E25CDFB192 /* Error.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Error.cpp; sourceTree = "<group>"; };
 		57D8A6442633932D08994CA0 /* ItaniumDemangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ItaniumDemangle.cpp; sourceTree = "<group>"; };
 		587A4F743EF57B2BA9196F2F /* ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertUTFWrapper.cpp; sourceTree = "<group>"; };
-		5908E7B5950B62F08DC70518 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		59EA03155136E2604720D056 /* Host.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Host.cpp; sourceTree = "<group>"; };
 		5AF0C862CA4675B007555433 /* Errno.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Errno.cpp; sourceTree = "<group>"; };
 		5B0CA6B1DAD1B9F333931F95 /* BuildValue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuildValue.cpp; sourceTree = "<group>"; };
@@ -332,26 +313,21 @@
 		735C3867AF241EA3E1BFD04A /* MakefileDepsParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MakefileDepsParser.cpp; sourceTree = "<group>"; };
 		74838D8B3A253F5C46D5D9DB /* CommandLine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommandLine.cpp; sourceTree = "<group>"; };
 		78B6E91E9C407A8E64C28B68 /* SerialQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SerialQueue.cpp; sourceTree = "<group>"; };
-		7A46E9444021E7FCB4EE5AE7 /* StringView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringView.h; sourceTree = "<group>"; };
 		7E5533BB774C3FD26EA91C00 /* BuildKey.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuildKey.cpp; sourceTree = "<group>"; };
+		7E7AA58F9938FE5ACFB57A06 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		8444CFD4B0F073F240629784 /* BuildEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuildEngine.cpp; sourceTree = "<group>"; };
-		844F642718D6034B2C31A39F /* LLVMBuild.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LLVMBuild.txt; sourceTree = "<group>"; };
-		85B77B07785B97D242900DA0 /* buildsystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buildsystem.h; sourceTree = "<group>"; };
 		86AC8842D14BFE51E6669B2B /* Locale.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Locale.cpp; sourceTree = "<group>"; };
-		87CD36ABECCF1BDDE06A3E59 /* LeanWindows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeanWindows.h; sourceTree = "<group>"; };
 		8A5F012F27368B66710AB15D /* Path.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Path.cpp; sourceTree = "<group>"; };
-		8BB0B3774DFA6D4A80780DA3 /* core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
 		9994D950530E1FE3E49B68A9 /* FileUtilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileUtilities.cpp; sourceTree = "<group>"; };
-		9B0AF71EFB1FE02CD8997F2D /* Compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Compiler.h; sourceTree = "<group>"; };
 		9B4C109448BECC48D77E73C9 /* BuildSystem-C-API.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BuildSystem-C-API.cpp"; sourceTree = "<group>"; };
 		9C8AD0CB3ADE0360763B3F62 /* BuildEngineTrace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuildEngineTrace.cpp; sourceTree = "<group>"; };
 		9D3261E71EAAA1A645C395BD /* Process.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Process.cpp; sourceTree = "<group>"; };
-		9D3F45207B488E873B2BD1A5 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		A5079ADA518BFD04883AD89E /* SmallVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SmallVector.cpp; sourceTree = "<group>"; };
 		A53333D211BB5CCB980E452F /* Valgrind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Valgrind.cpp; sourceTree = "<group>"; };
 		A8C1D4CA603D019BDE71920B /* UnicodeCaseFold.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnicodeCaseFold.cpp; sourceTree = "<group>"; };
 		AC17BF53F6A78A32FF5D74B6 /* Signals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Signals.cpp; sourceTree = "<group>"; };
 		AC48A38CC4ACFD5847A2ADDF /* MemoryBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MemoryBuffer.cpp; sourceTree = "<group>"; };
+		B0F9493A59B0D72EDE034DB2 /* core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
 		B240C1FD1393B20450356ADF /* BuildSystemBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildSystemBindings.swift; sourceTree = "<group>"; };
 		B27EC165E90C1003C6684617 /* MicrosoftDemangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MicrosoftDemangle.cpp; sourceTree = "<group>"; };
 		B5F241149EE6D035EC5DB615 /* NativeFormatting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NativeFormatting.cpp; sourceTree = "<group>"; };
@@ -361,9 +337,7 @@
 		BF7E48B4717C2087866346AA /* BuildDB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuildDB.cpp; sourceTree = "<group>"; };
 		C0BE435E3B05CCAE98CA9CE3 /* YAMLParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = YAMLParser.cpp; sourceTree = "<group>"; };
 		C0FB91D3F6924F40E7C53996 /* BuildSystemFrontend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuildSystemFrontend.cpp; sourceTree = "<group>"; };
-		C1EF7D06A565C65599FC590E /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		C23397618599C1472672D09A /* StringRef.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringRef.cpp; sourceTree = "<group>"; };
-		C2AAE29E82D41A4D8ED4038F /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		C6C6F4D04635F08F0CC23E42 /* Tracing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tracing.cpp; sourceTree = "<group>"; };
 		C7461A34FF4AC4BE29F86571 /* FileSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileSystem.cpp; sourceTree = "<group>"; };
 		C835FB8CCEBB8600942E1279 /* Mutex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mutex.cpp; sourceTree = "<group>"; };
@@ -372,7 +346,6 @@
 		D1B90B6E22696765FCD79CAB /* Hashing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hashing.cpp; sourceTree = "<group>"; };
 		D70488C8538CF29F494F79A9 /* ExecutionQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExecutionQueue.cpp; sourceTree = "<group>"; };
 		D756459F94ACE62EE4711BAF /* Program.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Program.cpp; sourceTree = "<group>"; };
-		DA20FA0D1F0AA31055FCD6B3 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		DEFAF4B533FF9670577B3C8B /* BuildFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuildFile.cpp; sourceTree = "<group>"; };
 		E2EFE03890483967CDCA5704 /* libllbuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libllbuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B45E4249D15E45CDFDE8B1 /* ConvertUTF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertUTF.cpp; sourceTree = "<group>"; };
@@ -382,6 +355,7 @@
 		EF7FC25DA62FB93ADB1D81C6 /* BuildSystemExtensionManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuildSystemExtensionManager.cpp; sourceTree = "<group>"; };
 		F67873E9B88A90FA486C55B0 /* CoreBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBindings.swift; sourceTree = "<group>"; };
 		F7154F7614AEBBF641F9DA42 /* circular_raw_ostream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = circular_raw_ostream.cpp; sourceTree = "<group>"; };
+		F9203B0213B62829A847D74B /* buildsystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buildsystem.h; sourceTree = "<group>"; };
 		F92B1AB44CE1FA4CF57E37ED /* Core-C-API.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Core-C-API.cpp"; sourceTree = "<group>"; };
 		F95CCF3298E0527BF966549C /* llvmDemangle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = llvmDemangle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5D2717E3B810AEA16118ED /* raw_ostream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = raw_ostream.cpp; sourceTree = "<group>"; };
@@ -461,20 +435,11 @@
 			children = (
 				9B4C109448BECC48D77E73C9 /* BuildSystem-C-API.cpp */,
 				3D66A3A56D5701299CE3F1D0 /* C-API.cpp */,
-				C2AAE29E82D41A4D8ED4038F /* CMakeLists.txt */,
 				F92B1AB44CE1FA4CF57E37ED /* Core-C-API.cpp */,
+				CA5B6805090CF75D009702A3 /* include */,
 			);
 			name = libllbuild;
 			path = products/libllbuild;
-			sourceTree = "<group>";
-		};
-		3B347786DBC1E29EF5C9098C /* include */ = {
-			isa = PBXGroup;
-			children = (
-				19B98C0E5DB71CEB8CC8B751 /* module.modulemap */,
-			);
-			name = include;
-			path = products/libllbuild/include;
 			sourceTree = "<group>";
 		};
 		49E26E4F08A70E59CB74C53C = {
@@ -484,9 +449,7 @@
 				8DF3827C9C813F223F180196 /* BuildSystem */,
 				791980D9969C6930FE843A92 /* Core */,
 				BC507CC50EE03F8A85AFCB3C /* Demangle */,
-				3B347786DBC1E29EF5C9098C /* include */,
 				35323B266FAE1D41FF328D46 /* libllbuild */,
-				B4F76BC40E117E275134B35D /* llbuild */,
 				83CCB3B33EB75302C1B808F1 /* llbuildSwift */,
 				6916DC702EEC50A528897638 /* Support */,
 				6C617D6AD3FFC9D469E0FC3F /* Products */,
@@ -503,7 +466,6 @@
 				E8CC18EB79E379CF53BB6673 /* Atomic.cpp */,
 				56E18994DD2EE13D84F49FAF /* Chrono.cpp */,
 				F7154F7614AEBBF641F9DA42 /* circular_raw_ostream.cpp */,
-				DA20FA0D1F0AA31055FCD6B3 /* CMakeLists.txt */,
 				74838D8B3A253F5C46D5D9DB /* CommandLine.cpp */,
 				E4B45E4249D15E45CDFDE8B1 /* ConvertUTF.cpp */,
 				587A4F743EF57B2BA9196F2F /* ConvertUTFWrapper.cpp */,
@@ -571,8 +533,6 @@
 				BF7E48B4717C2087866346AA /* BuildDB.cpp */,
 				8444CFD4B0F073F240629784 /* BuildEngine.cpp */,
 				9C8AD0CB3ADE0360763B3F62 /* BuildEngineTrace.cpp */,
-				15ADC9B30B5C9B3E02BBD200 /* BuildEngineTrace.h */,
-				5908E7B5950B62F08DC70518 /* CMakeLists.txt */,
 				27C69028454EAAF27EDD4F27 /* DependencyInfoParser.cpp */,
 				735C3867AF241EA3E1BFD04A /* MakefileDepsParser.cpp */,
 				B7FE2CFA4802CC086558EE60 /* SQLiteBuildDB.cpp */,
@@ -585,7 +545,6 @@
 			isa = PBXGroup;
 			children = (
 				B240C1FD1393B20450356ADF /* BuildSystemBindings.swift */,
-				C1EF7D06A565C65599FC590E /* CMakeLists.txt */,
 				F67873E9B88A90FA486C55B0 /* CoreBindings.swift */,
 			);
 			name = llbuildSwift;
@@ -603,7 +562,6 @@
 				EF7FC25DA62FB93ADB1D81C6 /* BuildSystemExtensionManager.cpp */,
 				C0FB91D3F6924F40E7C53996 /* BuildSystemFrontend.cpp */,
 				5B0CA6B1DAD1B9F333931F95 /* BuildValue.cpp */,
-				1ECF5FF7F4152D0403BBFF4A /* CMakeLists.txt */,
 				2E76B202FCB9034718E444DD /* ExternalCommand.cpp */,
 				3A182BABA64AAEAFDA9037BF /* ShellCommand.cpp */,
 			);
@@ -611,42 +569,33 @@
 			path = lib/BuildSystem;
 			sourceTree = "<group>";
 		};
-		B4F76BC40E117E275134B35D /* llbuild */ = {
-			isa = PBXGroup;
-			children = (
-				85B77B07785B97D242900DA0 /* buildsystem.h */,
-				8BB0B3774DFA6D4A80780DA3 /* core.h */,
-				153F7A5DA7BEB7AA262E77CB /* llbuild.h */,
-			);
-			name = llbuild;
-			path = products/libllbuild/include/llbuild;
-			sourceTree = "<group>";
-		};
 		BC507CC50EE03F8A85AFCB3C /* Demangle */ = {
 			isa = PBXGroup;
 			children = (
-				52102B329806627E284FF2C0 /* CMakeLists.txt */,
-				9B0AF71EFB1FE02CD8997F2D /* Compiler.h */,
 				57D8A6442633932D08994CA0 /* ItaniumDemangle.cpp */,
-				844F642718D6034B2C31A39F /* LLVMBuild.txt */,
 				B27EC165E90C1003C6684617 /* MicrosoftDemangle.cpp */,
-				7A46E9444021E7FCB4EE5AE7 /* StringView.h */,
-				9D3F45207B488E873B2BD1A5 /* Utility.h */,
 			);
 			name = Demangle;
 			path = lib/llvm/Demangle;
 			sourceTree = "<group>";
 		};
+		CA5B6805090CF75D009702A3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7E7AA58F9938FE5ACFB57A06 /* module.modulemap */,
+				FF0D9E74EAC45A94BA54FAAE /* llbuild */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		EE5C038437DDED92330CF440 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
-				386C9DE527EAED05B7757194 /* CMakeLists.txt */,
 				D70488C8538CF29F494F79A9 /* ExecutionQueue.cpp */,
 				2AA5AAF7326A29C03D94A32B /* FileInfo.cpp */,
 				C7461A34FF4AC4BE29F86571 /* FileSystem.cpp */,
 				6EB82CFCE604708B751788ED /* Hashing.cpp */,
 				71010D4DB715DEAE642A4BF6 /* LaneBasedExecutionQueue.cpp */,
-				87CD36ABECCF1BDDE06A3E59 /* LeanWindows.h */,
 				07C5DC7BA38C8D7B4CF58405 /* PlatformUtility.cpp */,
 				78B6E91E9C407A8E64C28B68 /* SerialQueue.cpp */,
 				41D8D25AE2834898E47EDF3C /* ShellUtility.cpp */,
@@ -658,6 +607,16 @@
 			path = lib/Basic;
 			sourceTree = "<group>";
 		};
+		FF0D9E74EAC45A94BA54FAAE /* llbuild */ = {
+			isa = PBXGroup;
+			children = (
+				F9203B0213B62829A847D74B /* buildsystem.h */,
+				B0F9493A59B0D72EDE034DB2 /* core.h */,
+				3A187D4711050DD6DF9A0C88 /* llbuild.h */,
+			);
+			path = llbuild;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -665,35 +624,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9391FF98C921E509E022B737 /* buildsystem.h in Headers */,
-				0B873D77345C8FD08B099945 /* core.h in Headers */,
-				DB2FC19C0FD78F1A7B3DE7B9 /* llbuild.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42533D401E416E5F2766B169 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30BEF1407C2ACBFC3AAFC64F /* LeanWindows.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		971E9E0137DC64A3FEF3752B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C670ECA369CFA0770C33B72 /* Compiler.h in Headers */,
-				7D771130244C2C6756D2453F /* StringView.h in Headers */,
-				FE0253C220251ACD20894336 /* Utility.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB9F1405F04AA81EE2BE1F4F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8955D112EA5AB6888B72464E /* BuildEngineTrace.h in Headers */,
+				5518F5BC449FA55DDFA8B756 /* buildsystem.h in Headers */,
+				63B2BCF4B005AB2C102EE341 /* core.h in Headers */,
+				BA2DC4CF0928F805384A5FAF /* llbuild.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,7 +638,6 @@
 			buildConfigurationList = 75A52CEED2E779244BC54296 /* Build configuration list for PBXNativeTarget "llbuildBuildSystem" */;
 			buildPhases = (
 				6386061C9D222FAA1849F7D9 /* Sources */,
-				7C0B5A291F427B6ED9EA4C46 /* Resources */,
 				138E94F8641885EF444070BC /* Frameworks */,
 			);
 			buildRules = (
@@ -726,7 +658,6 @@
 			buildConfigurationList = DEBB6BA83DD145707A350FA9 /* Build configuration list for PBXNativeTarget "llbuildSwift" */;
 			buildPhases = (
 				682C2F46F3A5A8AA5DD9925E /* Sources */,
-				A70365522E7B5983E23DB551 /* Resources */,
 				2CDCB6C7859C957F278A30E3 /* Frameworks */,
 			);
 			buildRules = (
@@ -748,9 +679,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D559CD22B0EF507C66C14F5B /* Build configuration list for PBXNativeTarget "llbuildCore" */;
 			buildPhases = (
-				AB9F1405F04AA81EE2BE1F4F /* Headers */,
 				B66012381BBB6C7BDC4CADC2 /* Sources */,
-				6960131AD789D120C2E8FAF1 /* Resources */,
 				273851392FF0A24C2015DE3D /* Frameworks */,
 			);
 			buildRules = (
@@ -769,9 +698,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4E3D7974DBF266A2166E44E /* Build configuration list for PBXNativeTarget "llbuildBasic" */;
 			buildPhases = (
-				42533D401E416E5F2766B169 /* Headers */,
 				756FFB8CA7812B3405B0B48D /* Sources */,
-				72C3848D4319AC32F3B5B35A /* Resources */,
 				B5EF76FCDA5A77A153359592 /* Frameworks */,
 			);
 			buildRules = (
@@ -789,9 +716,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3323F37C01B3A80863E6494 /* Build configuration list for PBXNativeTarget "llvmDemangle" */;
 			buildPhases = (
-				971E9E0137DC64A3FEF3752B /* Headers */,
 				88F32B0D5A287539AC39E50A /* Sources */,
-				81620BBB427E0250194FB32C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -808,7 +733,6 @@
 			buildPhases = (
 				2C460AED655D314DDC83CA4E /* Headers */,
 				10B3F4ACB2595274CFC8E58A /* Sources */,
-				209795F9CB215B6693493AEA /* Resources */,
 				FD282633190E75ED57DB52B0 /* Frameworks */,
 			);
 			buildRules = (
@@ -830,7 +754,6 @@
 			buildConfigurationList = 55AC2CFFB12B9852CF2B941C /* Build configuration list for PBXNativeTarget "llvmSupport" */;
 			buildPhases = (
 				0A918B3079369DBC03ED9CC1 /* Sources */,
-				C2191B6EE7E2FEDA7A9B3626 /* Resources */,
 				9DCEBBB1D45DED20071D258D /* Frameworks */,
 			);
 			buildRules = (
@@ -873,66 +796,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		209795F9CB215B6693493AEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EACED73A13A9B3A0B702710 /* CMakeLists.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6960131AD789D120C2E8FAF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1B8855EF5957BB4AFB0B7D1 /* CMakeLists.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72C3848D4319AC32F3B5B35A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0CDFA67739EBEB449FB2101 /* CMakeLists.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7C0B5A291F427B6ED9EA4C46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A351E61F99B9B3B43351B755 /* CMakeLists.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81620BBB427E0250194FB32C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53E419CEA023B32A2789A649 /* CMakeLists.txt in Resources */,
-				2336E8E94B18644501A9A720 /* LLVMBuild.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A70365522E7B5983E23DB551 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30AAF18618FADB2E5670E1A1 /* CMakeLists.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2191B6EE7E2FEDA7A9B3626 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8853BB1256BD8BA3145C3000 /* CMakeLists.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A918B3079369DBC03ED9CC1 /* Sources */ = {
@@ -1181,7 +1044,6 @@
 		0BC24386833B476D51BB6796 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1200,9 +1062,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				OTHER_LDFLAGS = (
-					"-lsqlite3",
-				);
+				OTHER_LDFLAGS = "-lsqlite3";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1212,7 +1072,6 @@
 		1CD81E21550FCB2C9199D312 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1229,9 +1088,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				OTHER_LDFLAGS = (
-					"-lncurses",
-				);
+				OTHER_LDFLAGS = "-lncurses";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1241,7 +1098,6 @@
 		1FDCDA94D91955554D8CC114 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1268,7 +1124,6 @@
 		2A8BA0D1E0445FAF7D3E7256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1276,9 +1131,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/lib/llvm/Demangle/include",
-				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/lib/llvm/Demangle/include";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1293,7 +1146,6 @@
 		3E4992AB35ECF5FA374DC613 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1322,7 +1174,6 @@
 		51295164D0951501F7E893F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1349,7 +1200,6 @@
 		65EAFD0FD6333B387B73289B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1357,14 +1207,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/products/libllbuild/include",
+					"$(SRCROOT)/lib/BuildSystem/include",
+					"$(SRCROOT)/lib/Core/include",
+					"$(SRCROOT)/lib/Basic/include",
+					"$(SRCROOT)/lib/llvm/Support/include",
+					"$(SRCROOT)/lib/llvm/Demangle/include",
+				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MODULEMAP_FILE = (
-					"$(SRCROOT)/products/libllbuild/include/module.modulemap",
-				);
+				MODULEMAP_FILE = "$(SRCROOT)/products/libllbuild/include/module.modulemap";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1374,7 +1230,6 @@
 		6D70DF2F29F56FC68651AEE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1382,14 +1237,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/products/libllbuild/include",
+					"$(SRCROOT)/lib/BuildSystem/include",
+					"$(SRCROOT)/lib/Core/include",
+					"$(SRCROOT)/lib/Basic/include",
+					"$(SRCROOT)/lib/llvm/Support/include",
+					"$(SRCROOT)/lib/llvm/Demangle/include",
+				);
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MODULEMAP_FILE = (
-					"$(SRCROOT)/products/libllbuild/include/module.modulemap",
-				);
+				MODULEMAP_FILE = "$(SRCROOT)/products/libllbuild/include/module.modulemap";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1406,11 +1267,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1420,7 +1283,6 @@
 		A814639E52D55328A08B0D16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1428,9 +1290,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/lib/llvm/Demangle/include",
-				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/lib/llvm/Demangle/include";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1452,11 +1312,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = plist/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1525,7 +1387,6 @@
 		CC286E7C9D7C201360194F14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1554,7 +1415,6 @@
 		CEF7C79CF713732824BAEAB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1573,9 +1433,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				OTHER_LDFLAGS = (
-					"-lsqlite3",
-				);
+				OTHER_LDFLAGS = "-lsqlite3";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1585,7 +1443,6 @@
 		E4D2C56872D479C7F3248EA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1602,9 +1459,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				OTHER_LDFLAGS = (
-					"-lncurses",
-				);
+				OTHER_LDFLAGS = "-lncurses";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";

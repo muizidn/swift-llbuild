@@ -13,7 +13,7 @@ import Foundation
 // We don't need this import if we're building
 // this file as part of the llbuild framework.
 #if !LLBUILD_FRAMEWORK
-import llbuild
+import libllbuild
 #endif
 
 enum DatabaseError: Error {
